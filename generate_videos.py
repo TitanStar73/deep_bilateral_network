@@ -10,8 +10,8 @@ import cv2
 import os
 import configuration as conf
 
-input_dir = 'video_tests/input'
-output_dir = 'video_tests/output'
+input_dir = '/kaggle/working/input/'
+output_dir = '/kaggle/working/output/'
 
 input_video_paths = os.listdir(input_dir)
 input_video_paths = [os.path.join(input_dir, p) for p in input_video_paths]
