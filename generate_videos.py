@@ -1,6 +1,7 @@
 import torch
 from torchvision.transforms import functional as tr
-import datasets.transforms as tr_custom
+
+import transforms as tr_custom
 from PIL import Image
 from tqdm import tqdm
 import time
